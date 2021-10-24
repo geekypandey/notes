@@ -1,0 +1,8 @@
+- topic: YAML Basics
+  link: https://www.youtube.com/watch?v=1uFVr15xDGg
+  description: |
+    Since I wanted to write about my daily learnings in yaml format, thought it would be best to learn the basics of yaml first :-) 
+    I have been using yaml in Github Actions, but never got around learning it.
+    I stole this: `alias yamlcheck='python -c "import sys, yaml as y; y.safe_load(open(sys.argv[1]))"'` from https://github.com/nibalizer/bash-tricks/blob/master/bash_tricks.sh.
+    Easy yaml checking in the terminal.
+  tags: ['yaml', 'basics', 'configuration files']
